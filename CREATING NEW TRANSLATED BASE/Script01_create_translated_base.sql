@@ -1,16 +1,12 @@
---1 -- CREATING NEW DB
+ --1 -- CREATING NEW DB
 CREATE DATABASE DB_COMMERCIAL
 
 /* 2 -- LISTING TABLES FROM SOURCE
 
-ENTIDADES               
-CLASSIFICACOES_CLIENTES 
+ENTIDADES                
 ENDERECOS               
-ESTADOS          
-ENTIDADES               
-CLASSIFICACOES_CLIENTES 
-ENDERECOS               
-ESTADOS          
+ESTADOS                       
+CLASSIFICACOES_CLIENTES           
 PRODUTOS           
 FAMILIAS_PRODUTOS  
 SECOES_PRODUTOS    
@@ -20,3 +16,8 @@ MARCAS
 VENDEDORES
 VENDAS_ANALITICAS
 */
+
+sp_help CLASSIFICACOES_CLIENTES           
+
+
+--3 -- Picking scripts and do translation

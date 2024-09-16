@@ -1,0 +1,13 @@
+
+CREATE TABLE [GRUPOS_PRODUTOS](
+	[GRUPO_PRODUTO] [numeric](15, 0) IDENTITY(1,1) NOT NULL,
+	[FORMULARIO_ORIGEM] [numeric](6, 0) NULL,
+	[TAB_MASTER_ORIGEM] [numeric](6, 0) NULL,
+	[REG_MASTER_ORIGEM] [numeric](15, 0) NULL,
+	[REG_LOG_INCLUSAO] [numeric](15, 0) NULL,
+	[DESCRICAO] [varchar](60) NOT NULL,
+	[MARKUP] [numeric](6, 2) NOT NULL,
+	[CODIGO_ANTIGO] [numeric](15, 0) NULL,
+	[GUID] [uniqueidentifier] NOT NULL
+) ON [PRIMARY]
+GO

@@ -1,0 +1,24 @@
+CREATE TABLE [ENDERECOS](
+	[ENDERECOS] [numeric](15, 0) IDENTITY(1,1) NOT NULL,
+	[FORMULARIO_ORIGEM] [numeric](6, 0) NULL,
+	[TAB_MASTER_ORIGEM] [numeric](6, 0) NULL,
+	[REG_MASTER_ORIGEM] [numeric](15, 0) NULL,
+	[REG_LOG_INCLUSAO] [numeric](15, 0) NULL,
+	[ENTIDADE] [numeric](15, 0) NOT NULL,
+	[PAIS] [varchar](40) NOT NULL,
+	[CEP] [varchar](9) NOT NULL,
+	[TIPO_ENDERECO] [varchar](15) NOT NULL,
+	[ENDERECO] [varchar](60) NOT NULL,
+	[NUMERO] [numeric](10, 0) NOT NULL,
+	[COMPLEMENTO] [varchar](60) NULL,
+	[BAIRRO] [varchar](40) NOT NULL,
+	[CIDADE] [varchar](40) NOT NULL,
+	[ESTADO] [varchar](2) NOT NULL,
+	[REFERENCIA] [varchar](255) NULL,
+	[MUNICIPIO] [numeric](15, 0) NULL,
+	[GUID] [uniqueidentifier] NOT NULL,
+	[CODIGO_IBGE] [numeric](7, 0) NULL,
+	[CODIGO_POSTAL] [varchar](25) NULL,
+	[CODIGO_POSTAL_CEP] [varchar](25) NULL
+) ON [PRIMARY]
+GO

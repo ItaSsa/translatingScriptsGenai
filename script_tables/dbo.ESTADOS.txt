@@ -1,0 +1,25 @@
+
+CREATE TABLE [ESTADOS](
+	[ESTADO] [varchar](2) NOT NULL,
+	[FORMULARIO_ORIGEM] [numeric](6, 0) NULL,
+	[TAB_MASTER_ORIGEM] [numeric](6, 0) NULL,
+	[REG_MASTER_ORIGEM] [numeric](15, 0) NULL,
+	[REG_LOG_INCLUSAO] [numeric](15, 0) NULL,
+	[NOME] [varchar](40) NOT NULL,
+	[ALIQUOTA_ICMS] [numeric](6, 2) NOT NULL,
+	[ALIQUOTA_INTERNA] [numeric](6, 2) NOT NULL,
+	[CODIGO_IBGE] [numeric](2, 0) NULL,
+	[ALIQUOTA_INTERESTADUAL] [numeric](6, 2) NULL,
+	[CODIGO_GIA] [numeric](6, 0) NULL,
+	[GUID] [uniqueidentifier] NOT NULL,
+	[ICMS_ALIQUOTA_FPOBREZA] [numeric](6, 2) NULL,
+	[CODIGO_GIAM] [varchar](2) NULL,
+	[GNRE_CODIGO_RECEITA] [varchar](6) NULL,
+	[GNRE_CODIGO_RECEITA_DETALHAMENTO] [varchar](6) NULL,
+	[GNRE_CODIGO_RECEITA_FP] [varchar](6) NULL,
+	[GNRE_CODIGO_RECEITA_DETALHAMENTO_FP] [varchar](6) NULL,
+	[DATA_VENCIMENTO] [datetime] NULL,
+	[DATA_VENCIMENTO_FCP] [datetime] NULL,
+	[EXIGE_RESP_TECNICO_NFE] [varchar](1) NULL
+) ON [PRIMARY]
+GO
